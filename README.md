@@ -7,6 +7,7 @@ rails new . --css=bootstrap --database=postgresql
 bin/rails db:create
 rails generate model Author
 rails generate controller Authors name email password_digest
+bundle add bcrypt
 ```
 
 This README would normally document whatever steps are necessary to get the
